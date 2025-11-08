@@ -1,0 +1,34 @@
+.quadrado {
+    display : inline-block;
+    width : 100px;
+    height : 100px;
+    background-color : red;
+    font-size : 25px;
+    color : white;
+    text-align : center;
+    font-family : arial;
+    font-weight : bold;
+    margin : 20px;
+    border : 2px solid black;
+}
+
+.container {
+    width : 590px;
+    height : 150px;
+    background-color : lightblue;
+    position: relative;
+}
+
+#um, #dois, #tres, #quatro {
+    position : static;
+}
+
+#um, #tres, #quatro {
+    position : static;
+}
+
+#dois {
+    position : sticky;
+    top : 50px;
+    left : 20px;
+}
